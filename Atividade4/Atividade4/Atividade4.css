@@ -1,0 +1,88 @@
+
+body {
+    background: url(FotodeFundo.jpg) center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+  
+  
+  .container {
+  margin: 0 auto;
+  width: 960px;
+}
+  
+article {
+  background-color: #b8ffc0;
+  border: 1px solid #CCC;
+  border-color: black;
+  margin-bottom: 70px;
+  padding: 10px; /* espaçamento entre a borda e o título */
+}
+  
+  
+article h2 {  
+  border-bottom: 1px dashed #7E9F19;
+  margin: 0;
+}
+  
+article img {
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 250px;
+    height: 160px;
+}
+  
+article a { /* mudando a cor dos links para negrito */
+  color: #2C88A7;
+  font-weight: bold;
+}
+  
+header h1 a {
+  color: white;
+  text-decoration: none;
+  margin-left:250px;
+}
+  
+  
+.clear { /* para a imagem nao "ficar fora" quando usa o float */
+  clear: both;
+  }
+  
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  }
+  
+section { /* para a barra lateral lista e titulo */
+  float: left;
+  width: 660px;
+  }
+  
+aside {
+    background-color: #9bffa6;
+    padding: 10px;
+    float: right;
+    width: 260px;
+    margin-bottom: 20px
+}
+  
+aside h3 {
+  font-size: 14px;
+  margin-top: 0;
+  }
+  
+aside ol {
+  font-size: 12px;
+  }
+
+ a{
+    color: white;
+    text-decoration: none;
+ } 
+  
+  
+  
