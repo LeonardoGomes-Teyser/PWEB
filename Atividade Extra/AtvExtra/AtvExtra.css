@@ -1,0 +1,70 @@
+.mudaCor{
+    width: 600px;
+    height: 600px;
+}
+
+/*1 cor amarela */
+@media screen and (max-width: 1920px){
+    .mudaCor{
+        background-color: yellow;
+    }   
+
+    .mudaCor h1:after{
+        content: "AMARELO";
+    }
+}
+
+/*2 cor roxa */
+@media screen and (max-width: 1366px){
+    .mudaCor{
+        background-color: purple;
+    }   
+
+    .mudaCor h1:after{
+        content: "ROXO";
+    }
+}
+
+/*3 cor vermelha */
+@media screen and (max-width: 1080px){
+    .mudaCor{
+        background-color: red;
+    }   
+
+    .mudaCor h1:after{
+        content: "VERMELHO";
+    }
+}
+
+/*4 cor magenta */
+@media screen and (max-width: 1024px){
+    .mudaCor{
+        background-color: magenta;
+    }   
+
+    .mudaCor h1:after{
+        content: "MAGENTA";
+    }
+}
+
+/*5 cor laranja */
+@media screen and (max-width: 768px){
+    .mudaCor{
+        background-color:orange;
+    }   
+
+    .mudaCor h1:after{
+        content: "LARANJA";
+    }
+}
+
+/*6 cor  */
+@media screen and (max-width: 420px){
+    .mudaCor{
+        background-color: gray ;
+    }   
+
+    .mudaCor h1:after{
+        content: "CINZA";
+    }
+}
