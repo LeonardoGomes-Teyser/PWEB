@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Teyser" />
+  <link rel="stylesheet" href="Style.css">
+  <title> Atividade 12</title>
+
+  <section>
+    <h1> JANELA DO VIZINHO CHATO</h1>
+    <h2> Ação 1- Para abrir a janela desse lazarento, passe o mouse em cima dela.</h2>
+    <h2> Ação 2- Para ser feliz e quebrar a janela do vacilão, clique em cima dela com o mouse.</h2>
+    <h2> Ação 3- Se você se arrepender das duas últimas ações acima, apenas tire o mouse de cima da janela.</h2>
+   
+
+    <figure id="janela">
+      <img src="Images/Window Close.svg" onmouseover="this.src = 'Images/Window Open.svg'"
+        onmouseout="this.src = 'Images/Window Close.svg'" onclick="this.src = 'Images/Window Broken.svg'">
+    </figure>
+  </section>
+</head>
+
+<body>
+  <script>
+    alert("Está é a janela daquele seu vizinho chato que você tanto odeia!\n\nVamos quebrá-la...\nHA HA HA HA \n\nSe você executar a 'Ação 3' você é um covarde!");
+  </script>
+</body>
+
+</html>
